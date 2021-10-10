@@ -15,7 +15,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " status line
-    "Plug 'vim-airline/vim-airline' 
+    " Plug 'vim-airline/vim-airline' 
     " ranger
     Plug 'kevinhwang91/rnvimr' , {'do': 'make sync'}
     " femline
@@ -37,6 +37,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " commentary
     Plug 'tpope/vim-commentary'
+    " gruvbox
+    Plug 'rktjmp/lush.nvim'
+    Plug 'ellisonleao/gruvbox.nvim'
+    " native LSP
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'hrsh7th/nvim-compe'
 
     call plug#end()
 

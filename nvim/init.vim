@@ -8,8 +8,7 @@ source $HOME/.config/nvim/plug-config/rainbow.vim
 
 lua require'plug-colorizer'
 
-
-
+colorscheme gruvbox
 
 nnoremap <space>/ :Commentary<CR>
 vnoremap <space>/ :Commentary<CR>
